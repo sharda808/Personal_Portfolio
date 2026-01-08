@@ -1,4 +1,10 @@
+import AboutMe from "./components/AboutMe"
+import DsaSection from "./components/DsaSection"
+import Education from "./components/Education"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+import Project from "./components/Project"
+import Skills from "./components/Skill"
 
 
 function App() {
@@ -6,8 +12,13 @@ function App() {
 
   return (
     <>
- <h1 className="text-3xl font-bold underline">This is My portfilo</h1>
- <Hero />
+     <Hero />
+<AboutMe />
+<Education />
+ <Skills />
+  <DsaSection />
+ <Project />
+ <Footer />
     </>
   )
 }

@@ -1,0 +1,48 @@
+.gradient-bg {
+  background: linear-gradient(to right, #EFF6FF, #ffffff);
+}
+.gradient-bg-1 {
+  background: linear-gradient(to right,#2563EB,#7E22CE );
+}
+.section-gradient {
+  background: linear-gradient(
+    to right,
+    #eff6ff,
+    #ffffff,
+    #eff6ff
+  );
+}
+/* Gradient 1 */
+.text-gradient-1 {
+  background: linear-gradient(to right, #2563eb, #06b6d4, #0ea5e9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Gradient 2 */
+.text-gradient-2 {
+  background: linear-gradient(to right, #7e22ce, #ec4899, #f43f5e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Gradient 3 */
+.text-gradient-3 {
+  background: linear-gradient(to right, #059669, #22c55e, #84cc16);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Gradient 4 */
+.text-gradient-4 {
+  background: linear-gradient(to right, #f97316, #ef4444, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* bg-gradient-to-r from-blue-600 to-purple-600 */
+/* }bg-gradient-to-b from-blue-50 to-white */
