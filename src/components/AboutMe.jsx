@@ -42,7 +42,7 @@ const AboutMe = () => {
           </p>
 
           <a
-            href="/resume.pdf"
+            href="/Sharda_Jha_Resume.pdf"
             className="inline-block px-6 py-3 bg-blue-600 text-white rounded-full 
                        font-semibold hover:bg-blue-700 transition"
           >
