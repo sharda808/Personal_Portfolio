@@ -17,6 +17,9 @@ const Project = () => {
   ];
 
   return (
+    <section id="projects" className="py-16">
+<h2 className="text-3xl md:text-4xl  font-bold text-center text-gray-800 mb-6">Projects</h2>
+  
     <div className="grid md:grid-cols-2 gap-6">
       {projects.map((project, index) => (
         <div
@@ -55,6 +58,7 @@ const Project = () => {
         </div>
       ))}
     </div>
+        </section>
   );
 };
 
